@@ -5,3 +5,7 @@ do {
     )
   );
 } while (choix != 1 && choix != 2 && choix != 3 && choix != 4);
+do {
+  var premierNombre = Number(prompt('Entrer le premier nombre'));
+  var deuxiemeNombre = Number(prompt('Entrer le deuxieme nombre'));
+} while (isNaN(premierNombre) || isNaN(deuxiemeNombre));
